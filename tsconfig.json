@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "noImplicitAny": false,
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "out_tsc"
+  },
+  "files": [
+    "./config/typescript.config.ts"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

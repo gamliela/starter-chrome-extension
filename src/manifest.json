@@ -1,0 +1,20 @@
+{
+  "name": "My Awesome Extension",
+  "version": "1.0",
+  "description": "Make the world better",
+  "options_page": "options.html",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

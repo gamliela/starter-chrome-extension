@@ -1,0 +1,33 @@
+{
+  "name": "starter-chrome-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alon Gamliel",
+  "license": "MIT",
+  "dependencies": {
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "react": "16.8.2",
+    "react-dom": "16.8.2"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.80",
+    "@types/react": "16.8.3",
+    "@types/react-dom": "16.8.2",
+    "copy-webpack-plugin": "4.6.0",
+    "css-loader": "2.1.0",
+    "html-webpack-plugin": "3.2.0",
+    "node-sass": "4.11.0",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.1",
+    "ts-loader": "5.3.3",
+    "typescript": "3.3.3",
+    "url-loader": "1.1.2",
+    "webpack": "4.29.4",
+    "webpack-cli": "3.2.3"
+  },
+  "scripts": {
+    "build": "webpack --config config/webpack.config.js",
+    "build-watch": "webpack --watch --config config/webpack.config.js"
+  }
+}
