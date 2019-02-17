@@ -17,7 +17,9 @@ This kit consists of the latest versions of:
 
 `yarn run build`
 
-The output goes to `/build/bundle.js` & `/build/index.html`
+The extension asset files are created at `/build/`.
+Load "unpacked extension" in Chrome to test it out!
+For more information on testing Chrome apps [read here](https://support.google.com/chrome/a/answer/2714278).
 
 #### Development Mode
 
